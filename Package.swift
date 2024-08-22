@@ -1,4 +1,4 @@
-// swift-tools-version:6.0
+// swift-tools-version:5.10
 import CompilerPluginSupport
 import PackageDescription
 
@@ -34,6 +34,5 @@ let package = Package(
                 .product(name: "SwiftSyntaxMacrosTestSupport", package: "swift-syntax"),
             ]
         ),
-    ],
-	swiftLanguageVersions: [.v6]
+    ]
 )
